@@ -1,0 +1,14 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+  xlmns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/achetype/1.0.0
+  http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>aws-lambda</id>
+  <sources>
+    <source>src/main/java/Handler.java</source>
+    <source>src/main/java/ReturnPojo.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/Handler.java</source>
+    <source>src/test/java/ReturnPojo.java</source>
+  </testSources>
+</archetype>
