@@ -25,4 +25,9 @@
       <organizationUrl>https://aws.amazon.com</organizationUrl>
     </developer>
   </developers>
+  <scm>
+    <connection>scm:git:git://github.com/toobrien/aws-lambda-s3-example.git</connection>
+    <developerConnection>scm:git:ssh://github.com:toobrien/aws-lambda-s3-example.git</developerConnection>
+    <url>http://github.com/toobrien/aws-lambda-s3-example/tree/master</url>
+  </scm>
 </project>
