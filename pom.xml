@@ -9,7 +9,7 @@
 
   <groupId>com.github.toobrien</groupId>
   <artifactId>aws-lambda-s3-example</artifactId>
-  <version>1.0</version>
+  <version>1.0i-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <licenses>
