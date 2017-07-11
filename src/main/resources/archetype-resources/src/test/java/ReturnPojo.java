@@ -1,3 +1,4 @@
+package ${groupId};
 
 public class ReturnPojo {
 
@@ -14,10 +15,10 @@ public class ReturnPojo {
   public ReturnPojo() {}
 
   public String getBucket() { return this.bucket; }
-  public String setBucket(String bucket) { this.bucket = bucket };
+  public void setBucket(String bucket) { this.bucket = bucket; };
   public String getObject() { return this.object; }
-  public String setobject(String object) { this.object = object; }
+  public void setobject(String object) { this.object = object; }
   public byte[] getBytes() { return this.bytes; }
-  public byte[] setBytes(byte[] bytes) { this.bytes = bytes; }
+  public void setBytes(byte[] bytes) { this.bytes = bytes; }
 
 }

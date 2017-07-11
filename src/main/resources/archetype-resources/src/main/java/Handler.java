@@ -18,10 +18,10 @@ public class Handler {
     s3 = AmazonS3ClientBuilder.defaultClient();
   }
 
-  public ReturnPojo handler(S3Event, Context context) throws IOException {
-    S3Entity e = S3Event.getEntity();
-    String bucket = e.getBucketEntity().getName();
-    String object = e.getObjectEntity().getName();
+  public ReturnPojo handler(S3Event event, Context context) throws IOException {
+    S3Entity e = event.getRecords().get(0).getS3();
+    String bucket = e.getBucket().getName();
+    String object = e.getObject().getKey();
 
     S3Object obj = s3.getObject(bucket,object);
 
@@ -29,7 +29,7 @@ public class Handler {
     S3ObjectInputStream str = obj.getObjectContent();
     str.read(bytes,0,bytes.length);
 
-    return new ReturnPojo(bucket, obj, bytes);
+    return new ReturnPojo(bucket, object, bytes);
   }
 }
 
