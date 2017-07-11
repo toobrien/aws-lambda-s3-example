@@ -9,7 +9,7 @@
 
   <groupId>com.github.toobrien</groupId>
   <artifactId>aws-lambda-s3-example</artifactId>
-  <version>1.3</version>
+  <version>1.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <licenses>
@@ -32,7 +32,7 @@
     <connection>scm:git:git://github.com/toobrien/aws-lambda-s3-example.git</connection>
     <developerConnection>scm:git:git@github.com:toobrien/aws-lambda-s3-example</developerConnection>
     <url>http://github.com/toobrien/aws-lambda-s3-example/tree/master</url>
-    <tag>aws-lambda-s3-example-1.3</tag>
+    <tag>aws-lambda-s3-example-1.0</tag>
   </scm>
 
   <distributionManagement>
