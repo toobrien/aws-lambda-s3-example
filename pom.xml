@@ -30,7 +30,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/toobrien/aws-lambda-s3-example.git</connection>
-    <developerConnection>scm:git:ssh://github.com/toobrien/aws-lambda-s3-example.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:toobrien/aws-lambda-s3-example</developerConnection>
     <url>http://github.com/toobrien/aws-lambda-s3-example/tree/master</url>
     <tag>aws-lambda-s3-example-1.0</tag>
   </scm>
